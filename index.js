@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require("fs");
 const util = require("util");
-const README = require("./utils/README");
+const generateMarkdown = require("./utils/generateMarkdown");
 const inquirer = require("inquirer");
 
 
@@ -33,9 +33,10 @@ return inquirer.prompt([
         name: "usage"
     },
     {
-        type: "input",
-        message: "Choose one of the following as your license/badge?  [APACHE2.0, BSD3, MIT, GPL3.0 ]",
-        name: "badge",
+        type: "list",
+        message: "Choose one of the following as your license/badge?", 
+        choices: ["GPL3.0", "BSD3", "MIT", "APACHE2.0"],
+        name: "badge"
         
     },
 {
@@ -88,9 +89,9 @@ const createFile = util.promisify(fs.writeFile);
 async function init() {
     try {
         const data= await questions();
-        const createContent = README(data);
+        const createContent = generateMarkdown(data);
     
-        await createFile(`./newReadMe/README.md`,createContent);
+        await createFile(`./README.md`,createContent);
         console.log("README.md created!");
     }   
     catch(err) {

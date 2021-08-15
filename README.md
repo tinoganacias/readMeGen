@@ -1,10 +1,66 @@
+my README
 
-## README generator
+# Description
 
-Made with node.JS, Inquirer, and JavaScript, this README generator was created so users can seamlessly generate a quality README through their computer terminal.
+this is to generate README files
+
+badge
+
+![badge](https://img.shields.io/badge/License-GPL3.0-yellow.svg)
+
+# Table of Contents
 
 
-![readme](https://user-images.githubusercontent.com/84544540/129461147-711c0856-4d71-46a0-b78f-5d7278468d8e.PNG)
-![readmeSnip](https://user-images.githubusercontent.com/84544540/129461110-1b7662ba-9dc1-421c-a278-9d7cc3b3489c.png)
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Badge](#badge)
+* [Contributions](#contributions)
+* [Test](#test)
+* [Features](#features)
+* [GitHub URL](#githuburl)
+* [Deployed URL](#deployedurl)
+* [GitHub Username](#githubusername)
+* [Email](#email)
 
-DEMO Video: https://drive.google.com/file/d/1RNuLPk-mRQy7nfHXIzFmGMfVozISubv4/view
+## installation
+
+demo
+
+## Usage
+    
+demo
+
+## contributions
+    
+demo
+    
+## test
+    
+npm test    
+
+## features
+    
+demo
+
+# Find Project    
+
+#### githuburl:
+    
+demo
+
+#### deployedurl:
+    
+demo
+
+## Questions:
+
+#### githubusername
+    
+tinoganacias
+
+## If you have any additional questions, please contact:
+
+#### email
+    
+tinojr20@gmail.com
