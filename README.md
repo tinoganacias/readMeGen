@@ -10,4 +10,4 @@ Made with Javascript, Inquirer, and Node.js, this READme generator was created t
 # Links
 
 ## Demo: https://drive.google.com/file/d/1RNuLPk-mRQy7nfHXIzFmGMfVozISubv4/view
-## Deployed: https://github.com/tinoganacias/readMeGen
+## Deployed: https://tinoganacias.github.io/readMeGen/
