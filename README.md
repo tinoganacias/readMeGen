@@ -4,7 +4,7 @@
 
 this is to generate README files
 
-badge
+# Badge
 
 ![badge](https://img.shields.io/badge/License-GPL3.0-yellow.svg)
 
